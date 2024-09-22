@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERW Enjoy Real World</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 20px; 
+            color: orangered;
+        }
+        button{
+            color: pink;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+        }
+        button:hover {
+            background-color: hsl(261, 82%, 48%);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 350px); 
+            gap: 20px; 
+            justify-content: center; 
+            margin: 0 auto;
+            max-width: 720px; 
+            background-color: white;
+        }
+        
+        .gallery img {
+            width: 350px; 
+            height: 200px; 
+            object-fit: cover; 
+        }
+        
+        .gallery h3 {
+            text-align: center;
+            margin: 0; 
+        }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Nandyal District</h1>
+    
+    <div class="gallery">
+        <div>
+            <img src="https://3.bp.blogspot.com/-q4cFw38gCKo/WfSCdJphXbI/AAAAAAAAPeQ/Kb3VPULMcvMS1hYo_7ATOYnm2SRi71mDwCEwYBhgL/s1600/razzwashere%2BBelum%2Bcaves%2B1.jpg">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/belum.html">
+                <button type="button">Belum Caves</button>
+            </a>
+        </div>
+        <div>
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/36/43/33/yaganti-temple.jpg?w=1200&h=-1&s=1">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/yaganti.html">
+            <button type="button">Yaganti Temple</button>
+            </a>
+        </div>
+
+        <div>
+            <img src="https://img1.wsimg.com/isteam/ip/e070b14c-9563-4fb1-927d-f8645f7f43f7/download.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/srisailam.html">
+            <button type="button">Srisailam</button>
+            </a>
+        </div>       
+        <div>
+            <img src="https://telugu.boldsky.com/img/2021/11/ci1-1637142952.jpg">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/mahanandi.html">
+                <button type="button">Mahanandi Temple</button>
+            </a>
+        </div>
+        <div>
+            <img src="https://touritvirtually.com/wp-content/uploads/2018/09/Nawab_Palace_Pic2.jpg">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/arundati.html">
+            <button type="button">Arundathi Palace</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

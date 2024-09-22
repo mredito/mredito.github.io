@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERW Enjoy Real World</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 20px; 
+            color: orangered;
+        }
+        button{
+            color: pink;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+        }
+        button:hover {
+            background-color: hsl(261, 82%, 48%);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 350px); 
+            gap: 20px; 
+            justify-content: center; 
+            margin: 0 auto;
+            max-width: 720px; 
+            background-color: white;
+        }
+        
+        .gallery img {
+            width: 350px; 
+            height: 200px; 
+            object-fit: cover; 
+        }
+        
+        .gallery h3 {
+            text-align: center;
+            margin: 0; 
+        }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to vizianagaram District</h1>
+    
+    <div class="gallery">
+        <div>
+            <img src="https://res.cloudinary.com/chasset/c_fill,e_improve,f_webp,h_480,w_720/hbimages/desktop/1527745393752-Thotapalli-Barrage.jpg">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/thotapalli.html">
+                <button type="button">Thotapalli Barrage</button>
+            </a>
+        </div>
+        <div>
+            <img src="https://viharadarshani.in/wp-content/uploads/2023/03/Ramatheertham-Temple.jpg">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/ramatheertam.html">
+            <button type="button">Ramatheertham</button>
+            </a>
+        </div>
+        <div>
+            <img src="https://www.go2india.in/ap/images/b-tatipudi-reservoir.jpg">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/thatipudi.html">
+            <button type="button">Thatipudi Reservoir</button>
+            </a>
+        </div>
+
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Viznm_kota.jpg/220px-Viznm_kota.jpg">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/vijayanagaram%20fort.html">
+            <button type="button">Vijayanagaram Fort</button>
+            </a>
+        </div>       
+        <div>
+            <img src="https://th-i.thgim.com/public/news/national/andhra-pradesh/3kwgmr/article34219216.ece/alternates/LANDSCAPE_1200/02-VZ-RAMTEMPLE">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/ramanarayanam.html">
+                <button type="button">Ramanarayanam</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

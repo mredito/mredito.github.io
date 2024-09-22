@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERW Enjoy Real World</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 20px; 
+            color: orangered;
+        }
+        button{
+            color: pink;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+        }
+        button:hover {
+            background-color: hsl(261, 82%, 48%);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 350px); 
+            gap: 20px; 
+            justify-content: center; 
+            margin: 0 auto;
+            max-width: 720px; 
+            background-color: white;
+        }
+        
+        .gallery img {
+            width: 350px; 
+            height: 200px; 
+            object-fit: cover; 
+        }
+        
+        .gallery h3 {
+            text-align: center;
+            margin: 0; 
+        }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Palnadu District</h1>
+    
+    <div class="gallery">
+        <div>
+            <img src="https://static2.tripoto.com/media/filter/tst/img/2108954/TripDocument/1646659567_amaravathi.jpg.webp">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/as.html">
+                <button type="button">Amaravathi Stupam</button>
+            </a>
+        </div>
+        <div>
+            <img src="https://static2.tripoto.com/media/filter/tst/img/1831695/TripDocument/1602946808_94832180_10221953073553621_3592699667332202496_o.jpg.webp">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/uc.html">
+            <button type="button">Undavalli Caves</button>
+            </a>
+        </div>
+        <div>
+            <img src="https://www.trawell.in/admin/images/upload/719249517Kondaveedu_Fort.jpg">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/kf.html">
+            <button type="button">Kondaveedu Fort</button>
+            </a>
+        </div>
+
+        <div>
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/5a/c3/dc/photo4jpg.jpg?w=1200&h=1200&s=1">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/ef.html">
+            <button type="button">Ethipothala Falls</button>
+            </a>
+        </div>       
+        <div>
+            <img src="https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/01/01/d27fbb092ce54662ad53869703c3534e_1000x1000.jpg">
+            <a href="file:///C:/Users/lokesh/OneDrive/Desktop/online%20website%20ERW/ns.html">
+                <button type="button">Nagarjuna Sagar</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
